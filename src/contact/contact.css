@@ -1,0 +1,86 @@
+ 
+  section.contact_description {
+    text-align: center;
+  }
+  
+  section.contact_description p {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    color: rgba(54, 54, 55, 1);
+  }
+  
+  
+  
+  section.contactus h1 {
+    color: rgba(2, 26, 113, 1);
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  
+  section.contactus figure img {
+    width: 15rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5%;
+  }
+  
+  section.contactus input {
+    height: 2.5rem;
+    width: 60%;
+    /* margin-left: 20%; */
+    /* background: #e5f1f8; */
+    box-shadow: 5px 5px 10px rgba(100, 100, 100, 0.231373);
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 1rem;
+  
+    padding-left: 1rem !important;
+  }
+  section.contactus textarea {
+    width: 60%;
+    /* margin-left: 20%; */
+    /* background: #e5f1f8; */
+    box-shadow: 5px 5px 10px rgba(100, 100, 100, 0.231373);
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  button[type="submit"] {
+    text-align: center;
+    background-color: rgba(46,61,154,1);
+    padding: 0.5rem 3.5rem;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    height: auto;
+  
+    border-radius: 7px;
+    border: none;
+  }
+  
+  section{
+    padding: 1.5rem 0;
+  }
+  
+  @media only screen and (min-width: 1240px) {
+    .header {
+      height: 55vh;
+    }
+    
+  }
+  @media only screen and (max-width: 680px) {
+    section.contactus figure img {
+      width: 20rem;
+    }
+  
+    section.contactus input,
+      section.contactus textarea {
+      width: 80%;
+    }
+    section.contactus .span-1-of-4 {
+       display: none;
+    }
+  }

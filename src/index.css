@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  /* --primary_color: rgba(2, 26, 113, 1); */
+  --primary_color: rgba(46,61,154,1);
+
+  
+  --secondary_color: #0e6ffb;
+  --tertiary_color: #c4dcff;
+  /* --white_color: */
+}
+
+html {
+  background-color: white ;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  max-width: 1800px;
+  margin: 0 auto;
+  /* overflow: hidden; */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary_color: rgba(46,61,154,1);
+  --secondary_color: #0e6ffb;
+  --tertiary_color: #c4dcff;
+}

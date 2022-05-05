@@ -1,0 +1,11 @@
+.header {
+    background-image: linear-gradient(
+        rgba(46,61,154,.7),
+        rgba(46,61,154,.8)
+      ),
+      url(../../public/logo512.png);
+  
+    min-height: 75vh;
+    background-position: center;
+    background-size: cover;
+  }

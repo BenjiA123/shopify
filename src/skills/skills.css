@@ -1,0 +1,94 @@
+
+
+.boltcap_transactions {
+    display: flex;
+    height: auto;
+    padding: 4rem 0;
+    flex-direction: row-reverse;
+    background-color: rgb(229,229,229);
+  
+  }
+  
+  .boltcap_skill_description{
+    flex: 4;
+  }
+  .boltcap_skill_description h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    color: rgba(46, 61, 154, 0.9);}
+  .boltcap_group{
+    flex: 5;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 1rem;
+    max-width: 120rem;
+    margin-left: 3rem;
+    width: auto;}
+  
+    .boltcap_group .card{
+      padding: 1rem;
+      min-height: 4rem;
+      border-radius: 10px;
+      transition: all;
+      background-color: var(--primary_color);
+    }
+  
+    .boltcap_group .card div{
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 1.5rem;
+      padding-bottom: .8rem;
+    }
+    .boltcap_group .card p{
+      color: white;
+      font-size: .65rem;
+      text-align: left;
+    }
+  
+    .boltcap_group .card:nth-child(even){
+      padding: 1rem;
+      min-height: 4rem;
+      background-color: white;
+    }
+    .boltcap_group .card:nth-child(even) *{
+      color: var(--primary_color);
+    }
+  
+    .boltcap_skill_description {
+      color: black;
+      text-align: left;
+      padding-left: 4rem;
+      padding-right: 2rem;
+    }
+  .boltcap_transactions:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  
+@media only screen and (max-width: 680px) {
+    .boltcap_transactions {
+      flex-direction: column;
+    
+    }
+    .boltcap_transactions {
+      flex-direction: column;
+    
+    }
+    .boltcap_group{
+      grid-template-columns: repeat(1, 1fr);
+      margin: auto;
+      grid-auto-flow: dense;
+      margin-top: 2rem;
+    }
+    
+    .boltcap_group .card{
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+  }
+  
+  
+  
